@@ -1,9 +1,9 @@
 :root {
-    --side-bar-bg-color: #eee8d5;    
-    --text-color: #839496;
-    --item-hover-bg-color: #eee8d5;
-    --window-border: 1px solid #93a1a1;
-    --active-file-bg-color: #fdf6e3;
+    --side-bar-bg-color: #073642;    
+    --text-color: #93a1a1;
+    --item-hover-bg-color: #073642;
+    --window-border: 1px solid #657b83;
+    --active-file-bg-color: #002b36;
     --active-file-text-color: #93a1a1;
     --item-hover-text-color: #93a1a1;
 }
@@ -44,9 +44,9 @@ html {
 
 body {
     font-family: Consolas, Mononoki, "Roboto Sans", "Liberation Mono", monospace;
-    color: #586e75;
+    color: #839496;
     line-height: 1.6;
-    background-color: #fdf6e3;
+    background-color: #002b36;
 }
 
 #write {
@@ -71,10 +71,7 @@ body > *:last-child {
 }
 
 a {
-    color: #268bd2;
-}
-a:hover {
-    color: #cb4b16;
+    color: #2aa198;
 }
 
 .md-toc-inner {
@@ -139,14 +136,14 @@ h1 {
     padding-bottom: .3em;
     font-size: 2.25em;
     line-height: 1.2;
-    border-bottom: 1px solid #eee8d5;
+    border-bottom: 1px solid #657b83;
 }
 
 h2 {
     padding-bottom: .3em;
     font-size: 1.75em;
     line-height: 1.225;
-    border-bottom: 1px solid #eee8d5;
+    border-bottom: 1px solid #657b83;
 }
 
 h3 {
@@ -188,11 +185,11 @@ hr {
     height: 1px;
     padding: 0;
     margin: 24px 0;
-    background-color: #eee8d5;
+    background-color: #657b83;
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
-    border-bottom: 1px solid #eee8d5;
+    border-bottom: 1px solid #657b83;
 }
 
 body > h2:first-child {
@@ -257,7 +254,7 @@ ol:last-child {
 }
 
 blockquote {
-    border-left: 4px solid #b58900;
+    border-left: 4px solid #6c71c4;
     padding: 0 15px;
     color: #93a1a1;
 }
@@ -313,8 +310,8 @@ table tr td:last-child {
 .md-fences,
 code,
 tt {
-    background-color: #eee8d5;
-    color: #cb4b16;
+    background-color: #073642;
+    color: #2aa198;
     border-radius: 3px;
     padding: 0;
     font-family: Consolas, Mononoki, "Roboto Mono", "Liberation Mono", Courier, monospace;
@@ -364,7 +361,7 @@ tt {
 }
 
 .md-fences {
-    background-color: #eee8d5;
+    background-color: #073642;
 }
 
 #write pre.md-meta-block {
@@ -408,7 +405,7 @@ tt {
     padding: 8px 16px;
     font-size: 0.9em;
     color: inherit;
-    background-color: 
+    background-color: #073642;
 }
 
 .md-tag {
@@ -425,7 +422,7 @@ tt {
 }
 
 #typora-quick-open {
-    background-color: #eee8d5;
+    background-color: #073642;
 }
 
 #typora-quick-open-item {

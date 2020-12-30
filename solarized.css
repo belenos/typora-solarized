@@ -6,6 +6,7 @@
     --active-file-bg-color: #fdf6e3;
     --active-file-text-color: #93a1a1;
     --item-hover-text-color: #93a1a1;
+    --bg-color: #fdf6e3;
 }
 
 @include-when-export url(http://fonts.googleapis.com/css?family=Roboto+Mono:400italic,700italic,700,400&subset=latin,latin-ext);

@@ -119,5 +119,4 @@ Feel free to submit issues and enhancement requests. This theme is actively main
 
 - **Original Solarized**: Ethan Schoonover
 - **Original Typora Theme**: Rafael Belenos
-- **Enhanced Version**: Improved by Claude AI with focus on Jekyll blog writing
 - **Mononoki Font**: madmalik
